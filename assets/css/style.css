@@ -53,6 +53,7 @@
 .col-8 {
     width: calc((100% / 12) * 8);
 }
+
 .col-12 {
     width: calc((100% / 12) * 12);
 }
@@ -64,43 +65,52 @@
 .bg-color-background {
     background-color: white;
 }
-.bg-color-secondary{
+
+.bg-color-secondary {
     background-color: #f6f5f9;
 }
-img{
+
+img {
     max-width: 100%;
 }
 
-.py-1{
-    padding-top:1.0rem;
+.py-1 {
+    padding-top: 1.0rem;
 }
 
-.my-3{
+.my-3 {
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
 }
-.justify-content-flex-end{
+
+.justify-content-flex-end {
     justify-content: flex-end;
 }
-.end{
+
+.end {
     justify-content: end;
     align-items: flex-end;
 }
-.py-3{
+
+.py-3 {
     padding-top: 1.5rem;
     padding-bottom: 1.0rem;
 }
-.start{
-  
+
+.start {
+
     align-items: flex-start;
 }
-.around{
+
+.around {
     justify-content: space-around;
 
 }
-.center{
+
+.center {
     justify-content: center;
 }
+
 /* #endlayout rule */
 
 
@@ -125,9 +135,11 @@ h1 {
 body {
     background-color: #f6f5f3;
 }
-.tradition{
+
+.tradition {
     display: none;
 }
+
 /* #endheader rule */
 
 
@@ -148,6 +160,7 @@ body {
     font-size: 1.5rem;
     justify-content: flex-start;
 }
+
 .title-minor {
     color: rgba(0, 0, 0, 0.158);
     font-size: 0.8rem;
@@ -158,19 +171,20 @@ body {
     padding-right: 0.2rem;
 }
 
-.calorie{
+.calorie {
     background-color: #7b69a2;
     border-radius: 0.5rem;
     padding: 0.1rem;
     color: white;
 }
 
-.info{
+.info {
 
     color: orange;
 
 }
-.ingredient hr{
+
+.ingredient hr {
     width: 80%;
     margin: auto;
     border-color: rgba(0, 0, 0, 0.151);
@@ -179,7 +193,7 @@ body {
 
 
 
-.social{
+.social {
     background-color: white;
     border-radius: 50%;
     padding: 0.4rem 1.2rem;
@@ -187,16 +201,18 @@ body {
 
 
 
-.presentation hr{
-    border-color: rgb(255, 238, 0) ;
+.presentation hr {
+    border-color: rgb(255, 238, 0);
     width: 25%;
 }
 
-.tiramisu-img{
+.tiramisu-img {
     width: 50%;
     margin: auto;
+    display: inline-block;
 }
-.presentation p{
+
+.presentation p {
     line-height: 1.3rem;
 }
 
@@ -204,24 +220,49 @@ body {
 @media screen and (min-width: 768px) {
     .title2 {
         justify-content: flex-start;
-    } 
-    .tradition{
+
+    }
+
+    .tiramisu {
+        font-size: 1.5rem;
+    }
+
+    .tradition {
         display: inline-block;
         padding-left: 0.5rem;
+
     }
-    .container{
+
+    .container {
         width: 80%;
     }
-    .col-md-4{
+
+    .col-md-4 {
         width: calc((100% / 12) * 4);
     }
-    .food{
+
+    .food {
         padding-left: 1rem;
+    }
+
+    .start .col-lg-12 {
+        width: calc((100% / 12) * 12);
     }
 }
 
 
 
 @media screen and (min-width: 992px) {
-    
+    .container-width {
+        width: 60%;
+    }
+
+    .col-lg-8 {
+        width: calc((100% / 12) * 8);
+    }
+
+    .col-lg-4 {
+        width: calc((100% / 12) * 4);
+    }
+   
 }
