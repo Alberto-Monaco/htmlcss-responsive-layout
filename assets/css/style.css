@@ -1,0 +1,46 @@
+/* #common rule /*
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* #endcommon rule */
+
+.debug * {
+    border: 1px dashed;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -1rem;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+[class^="col-"] {
+    padding: 0 0.5rem;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.title {
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2rem;
+}
