@@ -1,5 +1,4 @@
-
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -10,6 +9,7 @@
 .debug * {
     border: 1px dashed;
 }
+
 /* #enddebug rule */
 
 
@@ -18,13 +18,15 @@
     margin: auto;
     max-width: 1200px;
     width: 90%;
-    
+
 }
-.container{
+
+.container {
     margin: auto;
     max-width: 1200px;
     width: 80%;
 }
+
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -38,21 +40,35 @@
 [class^="col-"] {
     padding: 0 0.5rem;
 }
+
 .between {
     justify-content: space-between;
 }
+
 .d-flex {
     display: flex;
     align-items: center;
 }
+
 .col-8 {
     width: calc((100% / 12) * 8);
 }
-.col-4 {
-    width: calc((100% / 12 )* 4);
+.col-12 {
+    width: calc((100% / 12) * 12);
 }
-.bg-color-background{
+
+.col-4 {
+    width: calc((100% / 12)* 4);
+}
+
+.bg-color-background {
     background-color: #f6f5f3;
+}
+.bg-color-secondary{
+    background-color: white;
+}
+img{
+    max-width: 100%;
 }
 /* #endlayout rule */
 
@@ -62,20 +78,23 @@
     justify-content: center;
     align-items: center;
 }
-header{
+
+header {
     background-color: white;
     padding: 1rem;
 }
+
 h1 {
     text-align: center;
     font-size: 1.8rem;
-    font-family: nerko-one, sans-serif; 
+    font-family: nerko-one, sans-serif;
     color: orange;
 }
 
-body{
+body {
     background-color: #f6f5f3;
 }
+
 /* #endheader rule */
 
 
@@ -87,19 +106,34 @@ body{
     padding: 0.5rem;
     border-radius: 1rem;
     margin-left: 0.5rem;
-
-
+    align-items: center;
 }
 
-
-.py-5{
-    padding-top: 2.5rem;
-    padding-bottom: 2.5rem;
+.end{
+    justify-content: end;
+    align-items: flex-end;
 }
-.tiramisu{
+.py-3{
+    padding-top: 1.5rem;
+    padding-bottom: 1.0rem;
+}
 
+.tiramisu {
+    padding-top: 0.5rem;
+    font-size: 1.5rem;
     justify-content: flex-start;
- 
-    
 }
-/* #endmain rule */
+.title-minor {
+    color: rgba(0, 0, 0, 0.158);
+    font-size: 0.8rem;
+}
+
+.py-1{
+    padding-top:1.3rem;
+}
+
+.my-3{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
