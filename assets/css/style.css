@@ -125,7 +125,9 @@ h1 {
 body {
     background-color: #f6f5f3;
 }
-
+.tradition{
+    display: none;
+}
 /* #endheader rule */
 
 
@@ -200,8 +202,13 @@ body {
 
 
 @media screen and (min-width: 768px) {
-
-    
+    .title2 {
+        justify-content: flex-start;
+    } 
+    .tradition{
+        display: inline-block;
+        padding-left: 0.5rem;
+    }
 }
 
 
