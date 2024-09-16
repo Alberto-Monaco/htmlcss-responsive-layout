@@ -16,9 +16,10 @@
 
 /* #layout rule */
 .container {
+    margin: auto;
     max-width: 1200px;
-    margin: 0 auto;
     width: 90%;
+    
 }
 
 .row {
@@ -34,18 +35,23 @@
 [class^="col-"] {
     padding: 0 0.5rem;
 }
-
+.justify-content-between {
+    justify-content: space-between;
+}
 .d-flex {
     display: flex;
 }
 .col-8 {
-    width: calc(100% / 12 * 8);
+    width: calc((100% / 12) * 8);
 }
 .col-4 {
-    width: calc(100% / 12 * 4);
+    width: calc((100% / 12 )* 4);
 }
 /* #endlayout rule */
 
+bg-color-background{
+    background-color: #f6f5f3;
+}
 
 /* #header rule */
 .title {
@@ -63,4 +69,16 @@ h1 {
 
 /* #endheader rule */
 
+
 /* #main rule */
+
+.rate {
+    background-color: orange;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+
+
+
+/* #endmain rule */
