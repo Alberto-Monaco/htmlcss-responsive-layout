@@ -209,6 +209,15 @@ body {
         display: inline-block;
         padding-left: 0.5rem;
     }
+    .container{
+        width: 80%;
+    }
+    .col-md-4{
+        width: calc((100% / 12) * 4);
+    }
+    .food{
+        padding-left: 1rem;
+    }
 }
 
 
