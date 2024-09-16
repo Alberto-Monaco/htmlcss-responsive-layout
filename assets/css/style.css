@@ -179,5 +179,13 @@ body {
 
 .presentation hr{
     border-color: rgb(255, 238, 0) ;
-    width: 10%;
+    width: 25%;
+}
+
+.tiramisu{
+    width: 50%;
+    margin: auto;
+}
+.presentation p{
+    line-height: 1.3rem;
 }
