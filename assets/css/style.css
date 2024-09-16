@@ -129,7 +129,7 @@ body {
 }
 
 .py-1{
-    padding-top:1.3rem;
+    padding-top:1.0rem;
 }
 
 .my-3{
@@ -156,4 +156,19 @@ hr{
     width: 80%;
     margin: auto;
     border-color: rgba(0, 0, 0, 0.151);
+}
+
+.start{
+  
+    align-items: flex-start;
+}
+
+.around{
+    justify-content: space-around;
+
+}
+.social{
+    background-color: white;
+    border-radius: 40%;
+    padding: 0.4rem;
 }
