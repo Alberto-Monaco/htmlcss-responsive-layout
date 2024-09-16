@@ -1,11 +1,10 @@
-/* #common rule /*
 
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-/* #endcommon rule */
+
 
 /* #debug rule */
 .debug * {
@@ -15,13 +14,16 @@
 
 
 /* #layout rule */
-.container {
+.container-width {
     margin: auto;
     max-width: 1200px;
     width: 90%;
     
 }
-
+.container{
+    margin: auto;
+    max-width: 1200px;
+    width: 80%;
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -49,7 +51,7 @@
 }
 /* #endlayout rule */
 
-bg-color-background{
+.bg-color-background{
     background-color: #f6f5f3;
 }
 
@@ -58,7 +60,10 @@ bg-color-background{
     justify-content: center;
     align-items: center;
 }
-
+header{
+    background-color: white;
+    padding: 1rem;
+}
 h1 {
     text-align: center;
     font-size: 2rem;
@@ -66,7 +71,9 @@ h1 {
     color: orange;
 }
 
-
+body{
+    background-color: #f6f5f3;
+}
 /* #endheader rule */
 
 
