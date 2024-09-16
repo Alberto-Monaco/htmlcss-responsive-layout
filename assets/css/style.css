@@ -70,6 +70,35 @@
 img{
     max-width: 100%;
 }
+
+.py-1{
+    padding-top:1.0rem;
+}
+
+.my-3{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.end{
+    justify-content: end;
+    align-items: flex-end;
+}
+.py-3{
+    padding-top: 1.5rem;
+    padding-bottom: 1.0rem;
+}
+.start{
+  
+    align-items: flex-start;
+}
+.around{
+    justify-content: space-around;
+
+}
+.center{
+    justify-content: center;
+}
 /* #endlayout rule */
 
 
@@ -109,14 +138,6 @@ body {
     align-items: center;
 }
 
-.end{
-    justify-content: end;
-    align-items: flex-end;
-}
-.py-3{
-    padding-top: 1.5rem;
-    padding-bottom: 1.0rem;
-}
 
 .tiramisu {
     padding-top: 0.5rem;
@@ -128,14 +149,7 @@ body {
     font-size: 0.8rem;
 }
 
-.py-1{
-    padding-top:1.0rem;
-}
 
-.my-3{
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
-}
 .voto {
     padding-right: 0.2rem;
 }
@@ -158,24 +172,16 @@ body {
     border-color: rgba(0, 0, 0, 0.151);
 }
 
-.start{
-  
-    align-items: flex-start;
-}
 
-.around{
-    justify-content: space-around;
 
-}
+
 .social{
     background-color: white;
     border-radius: 50%;
     padding: 0.4rem 1.2rem;
 }
 
-.center{
-    justify-content: center;
-}
+
 
 .presentation hr{
     border-color: rgb(255, 238, 0) ;
@@ -188,4 +194,16 @@ body {
 }
 .presentation p{
     line-height: 1.3rem;
+}
+
+
+@media screen and (min-width: 768px) {
+
+    
+}
+
+
+
+@media screen and (min-width: 992px) {
+    
 }
