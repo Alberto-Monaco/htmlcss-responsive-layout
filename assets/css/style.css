@@ -24,6 +24,7 @@
     margin: auto;
     max-width: 1200px;
     width: 80%;
+}
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -49,11 +50,11 @@
 .col-4 {
     width: calc((100% / 12 )* 4);
 }
-/* #endlayout rule */
-
 .bg-color-background{
     background-color: #f6f5f3;
 }
+/* #endlayout rule */
+
 
 /* #header rule */
 .title {
