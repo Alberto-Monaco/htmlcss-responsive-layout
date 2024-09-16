@@ -152,7 +152,7 @@ body {
     color: orange;
 
 }
-hr{
+.ingredient hr{
     width: 80%;
     margin: auto;
     border-color: rgba(0, 0, 0, 0.151);
@@ -171,4 +171,13 @@ hr{
     background-color: white;
     border-radius: 50%;
     padding: 0.4rem 1.2rem;
+}
+
+.center{
+    justify-content: center;
+}
+
+.presentation hr{
+    border-color: rgb(255, 238, 0) ;
+    width: 10%;
 }
