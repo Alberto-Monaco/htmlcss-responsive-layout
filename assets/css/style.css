@@ -197,21 +197,26 @@ body {
     background-color: white;
     border-radius: 50%;
     padding: 0.5rem 0.8rem;
-    
+
 }
-.facebook{
+
+.facebook {
     color: blue;
 }
-.twitter{
+
+.twitter {
     color: rgb(78, 127, 233);
 }
-.instagram{
+
+.instagram {
     color: #f83bdf;
 }
-.pinterest{
+
+.pinterest {
     color: red;
 }
-.youtube{
+
+.youtube {
     color: red;
 }
 
@@ -264,6 +269,10 @@ body {
     .start .col-lg-12 {
         width: calc((100% / 12) * 12);
     }
+    .social-lg{
+        padding: 0.6rem 3.5rem;
+        border-radius: 99px;
+    }
 }
 
 
@@ -280,5 +289,5 @@ body {
     .col-lg-4 {
         width: calc((100% / 12) * 4);
     }
-   
+
 }
