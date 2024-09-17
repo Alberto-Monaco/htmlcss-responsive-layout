@@ -30,7 +30,6 @@
 .row {
     display: flex;
     flex-wrap: wrap;
-    margin: 0 -1rem;
 }
 
 .col-12 {
@@ -38,7 +37,6 @@
 }
 
 [class^="col-"] {
-    padding: 0 0.5rem;
 }
 
 .between {
@@ -72,6 +70,7 @@
 
 img {
     max-width: 100%;
+    display: block;
 }
 
 .py-1 {
