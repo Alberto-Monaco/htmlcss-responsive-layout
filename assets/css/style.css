@@ -235,7 +235,7 @@ body {
 .tiramisu-img {
     width: 50%;
     margin: auto;
-    display: inline-block;
+    display: block;
 }
 
 .presentation p {
@@ -282,6 +282,13 @@ body {
     .banner{
         display: inline-block;
 }
+
+    .tiramisu-img{
+        width: 50%;
+        margin:0 1rem;
+        display: block;
+        float: left;
+    }
 }
 
 
@@ -310,4 +317,5 @@ body {
     .social{
         padding: 0.6rem 1.0rem;
     }
+    
 }
