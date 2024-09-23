@@ -36,8 +36,7 @@
     width: 100%;
 }
 
-[class^="col-"] {
-}
+[class^="col-"] {}
 
 .between {
     justify-content: space-between;
@@ -199,9 +198,11 @@ body {
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.219);
 
 }
-.text-social{
+
+.text-social {
     display: none;
 }
+
 .facebook {
     color: blue;
 }
@@ -222,7 +223,7 @@ body {
     color: red;
 }
 
-.banner{
+.banner {
     display: none;
 }
 
@@ -274,18 +275,19 @@ body {
     .start .col-lg-12 {
         width: calc((100% / 12) * 12);
     }
-    .social-lg{
+
+    .social-lg {
         padding: 0.6rem 3.5rem;
         border-radius: 99px;
     }
 
-    .banner{
+    .banner {
         display: inline-block;
-}
+    }
 
-    .tiramisu-img{
+    .tiramisu-img {
         width: 50%;
-        margin:0 1rem;
+        margin: 0 1rem;
         display: block;
         float: left;
     }
@@ -305,7 +307,8 @@ body {
     .col-lg-4 {
         width: calc((100% / 12) * 4);
     }
-    .text-social{
+
+    .text-social {
         display: inline-block;
         font-size: 0.5rem;
         text-align: center;
@@ -314,8 +317,9 @@ body {
         padding-left: 0.5rem;
         color: black;
     }
-    .social{
+
+    .social {
         padding: 0.6rem 1.0rem;
     }
-    
+
 }
